@@ -14,11 +14,13 @@ body{
 #date{
     color: rgb(6, 47, 100);
     background-color: rgba(226, 161, 212, 0.582);
+    border:0;
     padding: 8px;
 }
 #button{
     color: rgb(6, 47, 100);
     background-color: rgba(199, 87, 176, 0.582);
+    border:0;
     padding: 8px;
 }
 .result{

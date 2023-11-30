@@ -10,7 +10,6 @@ button.addEventListener('click', function(){
     const parsedDate = Date.parse(currentDate);
     const diff = dateOfbirth - parsedDate;
     const diffDays = Math.ceil(diff / 1000 / 3600 / 24);
-    console.log(diffDays);
 
     let nameDay = '';
     if (diffDays > 10 && [11, 12, 13, 14].includes(diffDays%100)) {
